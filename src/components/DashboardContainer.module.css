@@ -1,0 +1,211 @@
+.icon24OutlineKeySqua {
+  position: relative;
+  width: 1.6rem;
+  height: 1.6rem;
+  overflow: hidden;
+  color: white;
+  flex-shrink: 0;
+}
+.dashboard {
+  position: relative;
+  letter-spacing: -0.01em;
+  width: 15rem;
+  left: -2.222rem;
+  height: 2.875rem;
+  padding: 1rem 0.8rem 1rem 1rem;
+  font-weight: 500;
+  color: rgb(138, 133, 133);
+}
+.dSquare1Icon,
+.listMenu {
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  height: 1.6rem;
+}
+
+.listMenu {
+  top: 8.6875rem;
+  left: 2.4375rem;
+  width: 7.25rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: white;
+}
+.dSquare1Icon {
+  top: 1.8rem;
+  left: 0;
+  cursor: pointer;
+  color: white;
+  width: 4rem;
+  overflow: hidden;
+}
+.product {
+  position: absolute;
+  top: -1.5rem;
+  width: 11rem;
+  left: -1.5rem;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: white;
+}
+.chevronRight2Icon {
+  position: absolute;
+  top: 2rem;
+  left: 11rem;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.listMenu1 {
+  position: absolute;
+  top: 13rem;
+  left: 2.5rem;
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  height: 0.25rem;
+}
+.listMenu2,
+.listMenu3,
+.listMenu4,
+.listMenu5,
+.sideMenuItem {
+  position: absolute;
+  top: 17rem;
+  left: 2.5rem;
+  width: 14.4375rem;
+  color: white;
+  cursor: pointer;
+  height: 1.6rem;
+}
+.listMenu3,
+.listMenu4,
+.listMenu5,
+.sideMenuItem {
+  top: 21rem;
+  color: white;
+}
+.listMenu4,
+.listMenu5,
+.sideMenuItem {
+  top: 25rem;
+}
+.listMenu5,
+.sideMenuItem {
+  top: 29rem;
+}
+.sideMenuItem {
+  top: 46rem;
+  left: 1.75rem;
+  border-radius: 50%;
+  width: 2.625rem;
+  color: white;
+  height: 2.625rem;
+  object-fit: cover;
+}
+.profilecontain{
+ top: 10%; 
+}
+.evano,
+.projectManager {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.evano {
+  font-weight: 500;
+  color: white;
+}
+.projectManager {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.evanoParent {
+  position: absolute;
+  top: 46rem;
+  left: 5.125rem;
+  width: 6.3125rem;
+  height: 2.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-black);
+}
+.chevronDown2Icon {
+  position: absolute;
+  top: 46.5rem;
+  left: 15.875rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  overflow: hidden;
+}
+
+.setting1Icon {
+  position: relative;
+  width: 2.3125rem;
+  height: 2.3125rem;
+  overflow: hidden;
+  color: white;
+  filter: invert(100%);
+  flex-shrink: 0;
+}
+.setting1Parent {
+  top: 2.25rem;
+  left: 1.75rem;
+  width: 12.1875rem;
+  height: 2.4375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-7xl);
+  color: white
+}
+.setting1Parent,
+.sideMenu {
+  position: absolute;
+}
+
+.sideMenu {
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 66);
+  box-shadow: 0 0.625rem 3.75rem rgba(226, 236, 249, 0.5);
+  width: 19rem;
+  height: 55rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: white;
+  font-family: var(--font-poppins);
+}
+img{
+  color: white;
+}
+
+button{
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+  width: 15rem;
+  padding: 1rem 5rem 1rem 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+button:hover{
+  border-radius: var(--br-5xs);
+  background-color: var(--color-blueviolet);
+}
